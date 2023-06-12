@@ -1,0 +1,5 @@
+#! /bin/sh
+chmod -R 755 LCD-show
+sudo cp kiosk.sh /home/pi
+sudo cp kiosk.service /lib/systemd/system/
+sudo systemctl enable kiosk.service
