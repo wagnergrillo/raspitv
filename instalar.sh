@@ -6,3 +6,4 @@ sudo systemctl enable kiosk.service
 sudo cp lightdm.conf /etc/lightdm
 sudo apt-get install unclutter
 unclutter -idle 0.01 -root
+reboot
